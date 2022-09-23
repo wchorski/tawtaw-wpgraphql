@@ -19,7 +19,7 @@ const Product = ( { product } ) => {
 	
 	return (
     <StyledProduct>
-			<Link href={product?.permalink ?? '/'}>
+			<Link href={`/product/${product?.id.toString()}` ?? '/'}>
 				<a>
 					<Image
 						sourceUrl={ img?.src ?? '' }

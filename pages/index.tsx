@@ -8,7 +8,7 @@ import { client } from "utils/apollo";
 import { gql } from "@apollo/client";
 import  PostCard  from "components/PostCard";
 import  {LayoutCoffeeBreak}  from "components/Layouts";
-import { Products } from "components/Products";
+import { Products } from "components/eCom/Products";
 
 const Home: NextPage = ({posts, menus, products}: any = []) => {
 

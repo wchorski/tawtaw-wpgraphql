@@ -36,7 +36,7 @@ const AddToCart = ( { product } ) => {
 					<a
 						className="btn"
 					>
-						View cart
+						View cart REST
 					</a>
 				</Link>
 			) : null }

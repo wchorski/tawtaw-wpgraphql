@@ -1,5 +1,5 @@
 import { isArray, isEmpty } from 'lodash';
-import Product from './Product';
+import Product from './ProductExerpt';
 // import {StyledProduct} from 'styles/Product.styled';
 
 export const Products = ({ products }) => {
